@@ -1,0 +1,47 @@
+{
+  "name": "bar1",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "npx prisma generate dev --name init && next build",
+    "start": "next start",
+    "lint": "next lint",
+    "migrate:dev": "npx prisma generate dev --name init"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.2.0",
+    "atomic-state": "^2.3.8",
+    "bs-icon": "^0.0.6",
+    "crypto-js": "^4.1.1",
+    "daisyui": "^3.6.3",
+    "date-fns": "^2.30.0",
+    "http-react": "^3.0.5",
+    "js-cookie": "^3.0.5",
+    "jsonwebtoken": "^9.0.1",
+    "mysql2": "^3.6.0",
+    "next": "^13.4.19",
+    "next-api-validation": "^1.0.5",
+    "next-rest-controller": "^0.0.6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.10.1",
+    "react-kuh": "^0.1.0",
+    "styled-components": "^6.0.7",
+    "tailwind-merge": "^1.14.0"
+  },
+  "devDependencies": {
+    "@types/crypto-js": "^4.1.1",
+    "@types/js-cookie": "^3.0.3",
+    "@types/jsonwebtoken": "^9.0.2",
+    "@types/node": "^20.5.6",
+    "@types/react": "^18.2.21",
+    "@types/react-dom": "^18.2.7",
+    "@types/styled-components": "^5.1.26",
+    "autoprefixer": "^10.4.15",
+    "postcss": "^8.4.28",
+    "prisma": "^5.2.0",
+    "tailwindcss": "^3.3.3",
+    "typescript": "^5.2.2"
+  }
+}
